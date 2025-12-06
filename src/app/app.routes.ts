@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { Dashboard } from './dashboard/dashboard';
 import { Login } from './login/login'; // ← nombre correcto
+import { Register } from './register/register';
 
 export const routes: Routes = [
   {
@@ -15,5 +16,8 @@ export const routes: Routes = [
   {
     path: 'dashboard',
     component: Dashboard
-  }
+  },
+  { path: 'register',
+     component: Register }
+
 ];

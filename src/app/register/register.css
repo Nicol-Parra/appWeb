@@ -1,0 +1,52 @@
+.container {
+  max-width: 350px;
+  margin: auto;
+  margin-top: 70px;
+  padding: 20px;
+  border-radius: 8px;
+  background: #ffffff20;
+  backdrop-filter: blur(10px);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.grupo {
+  margin-bottom: 15px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  width: 100%;
+  padding: 8px;
+  background: #ffffff44;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 15px;
+  background: #3B82F6;
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.login-text {
+  margin-top: 25px;
+  text-align: center;
+}
