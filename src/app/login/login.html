@@ -13,7 +13,10 @@
         <input type="password" [(ngModel)]="password" name="password" required />
       </div>
 
-      <button type="submit" class="btn">Ingresar</button>
+      <button (click)="ingresar()">Ingresar</button>
+      <div class="register-link">
+        ¿No tienes cuenta? <span (click)="goToRegister()">Regístrate</span>
+      </div>
 
       <p class="msg-error" *ngIf="error">
         {{ error }}
